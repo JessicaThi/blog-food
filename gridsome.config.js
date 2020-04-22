@@ -14,6 +14,12 @@ module.exports = {
         typeName: "Articles",
         remark: {}
       }
+    },
+    {
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/admin`
+      }
     }
   ],
   transformers: {
